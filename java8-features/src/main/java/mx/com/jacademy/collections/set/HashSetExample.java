@@ -4,6 +4,7 @@ import java.util.HashSet;
 
 public class HashSetExample {
     
+    // A collection that contains no duplicate elements
     public static void main(String[] args) {
         
         // Default capacity 16 Load Factor 0.75

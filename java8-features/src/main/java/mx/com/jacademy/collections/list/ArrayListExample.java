@@ -34,8 +34,8 @@ public class ArrayListExample{
         arrayList.add(2, "Python");
         System.out.println("\nAfter insertion on second position:"+arrayList);
 
-        //Retrieve specific element
-        //Python
+        // Retrieve specific element
+        // Python
         System.out.println("\nGetting second position from list:"+arrayList.get(2));
 
         // Change/replace element

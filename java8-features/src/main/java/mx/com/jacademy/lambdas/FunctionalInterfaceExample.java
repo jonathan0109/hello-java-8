@@ -10,7 +10,7 @@ interface Cab {
     String bookCab(String source, String destination);
 }
 
-public class Test {
+public class FunctionalInterfaceExample {
     
     public static void main(String[] args) {
 

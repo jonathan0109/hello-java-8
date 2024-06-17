@@ -33,5 +33,28 @@ public class PredicateExample {
             }
         }
 
+        // Example 4
+        int a[] = {5,15,20,25,30,25,40,45,50,55,60,65};
+
+        Predicate<Integer> residue = i -> i%2==0;
+        Predicate<Integer> greaterThan = i -> i>50;
+
+        System.out.println("\nNumbers on the array without residue:");
+
+        // 20, 30, 40, 50, 60
+        for(int num : a) {
+            if(residue.test(num)) {
+                System.out.println(num);
+            }
+        }
+
+        System.out.println("\nNumbers on the array greater than 50:");
+
+        //55, 60, 65
+        for(int num : a) {
+            if(greaterThan.test(num)) {
+                System.out.println(num);
+            }
+        }
     }
 }

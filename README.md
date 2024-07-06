@@ -7,9 +7,17 @@ We’ll have a quick look at some of the most interesting new features in Java 8
 
 ### Collections Framework
 
-The Collection in Java is a framework that provides an architecture to store and manipulate the group of objects.
+Any group of individual objects that are represented as a single unit is known as a Java Collection of Objects.
 
-Java Collections can achieve all the operations that you perform on a data such as searching, sorting, insertion, manipulation, and deletion.
+A collections framework is a unified architecture for representing and manipulating collections, enabling collections to be manipulated independently of implementation details.
 
-Java Collection means a single unit of objects. Java Collection framework provides many interfaces (Set, List, Queue, Map) and classes (ArrayList, LinkedList, HashMap, HashSet, etc).
+java.util.Collection is the root interface of Collections Framework.
+
+Some other important interfaces are java.util.List, java.util.Set, java.util.Queue and java.util.Map. The Map is the only interface that doesn’t inherit from the Collection interface but it’s part of the Collections framework.
+
+
+
+
+
+
 
